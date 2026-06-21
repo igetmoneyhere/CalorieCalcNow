@@ -2,12 +2,13 @@
   "name": "caloriecalcnow",
   "version": "1.0.0",
   "description": "Fast, accurate calorie calculator for fitness and nutrition tracking",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "react": "^18.2.0",
