@@ -43,6 +43,22 @@ export function generateFAQSchema() {
           text: 'TDEE (Total Daily Energy Expenditure) is the total number of calories you burn in a day including activity.',
         },
       },
+      {
+        '@type': 'Question',
+        name: 'How accurate is this calculator?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Our calculator uses the Mifflin-St Jeor equation, one of the most accurate BMR formulas. However, individual metabolism varies. We recommend tracking for 2-3 weeks and adjusting based on actual results.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What are macronutrients?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Macronutrients are proteins, carbohydrates, and fats. Our calculator provides personalized macro ratios based on your fitness goal.',
+        },
+      },
     ],
   };
 }
